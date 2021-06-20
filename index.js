@@ -18,7 +18,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 
-mongoose.connect(`${process.env.SERVER_MONGO_ATLAS_URL}/carsDB`,
+mongoose.connect(`mongodb+srv://admin-noel:evCars21@cluster0.hvbfw.mongodb.net/carsDB`,
 {useNewUrlParser: true,
 useUnifiedTopology: true});
 
