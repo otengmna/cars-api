@@ -13,6 +13,6 @@ router.get('/all-cars/all-makes/all-models-of/:carMake', CarController.getAllMod
 router.get('/all-cars/all-makes/all-models-of/:carYear/:carMake', CarController.getAllModelsofMakeByYear);
 router.get('/all-car-years', CarController.getAllDistictYears);
 router.get('/all-makes-by-year/:carYear', CarController.getAllDistinctMakesByYear);
-router.post('/cars/evs/add', CarController.addCar);
+
 
 module.exports = router;

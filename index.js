@@ -4,7 +4,6 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const cors = require('cors');
 require('dotenv').config();
-//npm install concurrently
 
 const evCarRouter = require('./router');
 
@@ -18,7 +17,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 
-mongoose.connect(`mongodb+srv://admin-noel:evCars21@cluster0.hvbfw.mongodb.net/carsDB`,
+mongoose.connect(`${process.env.SERVER_MONGO_ATLAS_URL}/carsDB`,
 {useNewUrlParser: true,
 useUnifiedTopology: true});
 
