@@ -10,26 +10,26 @@ Database currently on contains Electric Car information.  I am working to add ot
 
 ## API Methods for Electric Cars
 ```
-**Get All Electric Cars **
+Get All Electric Cars
 /cars/evs/GetAllEvs
 
-**Get All Electric Cars by Make**
+Get All Electric Cars by Make
 /cars/evs/GetAllMakes
 
-**Get Electric Car Makes by Year**
+Get Electric Car Makes by Year
 /all-makes-by-year/:carYear
 
-**Get All Electric Car Years Available in Database**
+Get All Electric Car Years Available in Database
 /all-car-years
 
-**Get Electric Car Makes by Year**
+Get Electric Car Makes by Year
 /cars/evs/all-makes-by-year/:carYear 
 
 
-**Get Electric Car Models by Make**
+Get Electric Car Models by Make
 /all-cars/all-makes/all-models-of/:carMake
 
-**Get Electric Car Models of year by Make **
+Get Electric Car Models of year by Make
 /all-cars/all-makes/all-models-of/:carYear/:carMake
 
 ```
