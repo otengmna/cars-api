@@ -6,7 +6,7 @@ It can be used without any API token, membership, registration or payment.
 
 base URL -  https://cars-hev.herokuapp.com/cars-api
 
-Database currently on contains Electric Car information.  I am working to add other car information starting with Hybrids then to Internal Combustion Engines.
+Database currently only contains Electric Car information.  I am working to add other car information starting with Hybrids then to Internal Combustion Engines.
 
 ## API Methods for Electric Cars
 ```
